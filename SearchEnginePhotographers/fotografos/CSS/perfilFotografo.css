@@ -1,0 +1,402 @@
+#container {
+    width: 900px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+}
+
+#nav_perfil {
+    width: 200px;
+}
+
+.nav_enlace, .productos_enlace{
+    padding: 10px 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(231, 200, 154);
+}
+
+.nav_enlace:hover, .productos_enlace:hover {
+    background-color: rgb(206, 169, 114);
+}
+
+#contenido2, #contenido3, #contenido4, #contenido5, #contenido6 {
+    display: none;
+    width: 700px;
+    margin: 0px auto;
+}
+
+.errorMsg {
+    display: none;
+    color: red;
+}
+
+
+/* navegación del perfil */
+
+#nav_contenido {
+    box-sizing: border-box;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    border: 1px solid rgb(205, 203, 126);
+    border-radius: 5px;
+}
+
+#div_productos {
+    box-sizing: border-box;
+    padding: 20px;
+    display: none;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    border: 1px solid rgb(205, 203, 126);
+    border-radius: 5px;
+}
+
+/* ------------------------------------------------------ VER ------------------------------------------------------- */
+
+#contenido1 {
+    width: 700px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    display: grid;
+    grid-template-rows: 1fr 3fr 3fr;
+    background-color: rgb(67, 64, 64);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#div_arriba_titulo {
+    text-align: center;
+}
+
+#div_medio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#div_medio_img {
+    text-align: center;
+}
+
+#div_medio_datosEmpresa {
+    border-left: 1px solid white;
+    padding-left: 10px;
+}
+
+#div_abajo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#div_abajo_izquierda{
+    padding-left: 100px;
+}
+
+#div_abajo_derecha {
+    padding-left: 11px;
+}
+
+#img_perfil {
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* para que quede bien dimensionado */
+    border-radius: 50%;
+}
+
+/* ------------------------------------------------- EDITAR -------------------------------------------- */
+
+#container2 {
+    width: 700px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    display: grid;
+    grid-template-rows: 1fr 3fr 2fr 2fr 3fr 1fr;
+    background-color: rgb(67, 64, 64);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.div_input {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+#titulo_registrar{
+    border-bottom: 1px solid white;
+    display: inline;
+}
+
+
+/* ----------------------------------- parte del medio ----------------------------------------- */
+
+#div_medio1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
+}
+
+#div_medio2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#div_medio4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#div_medio_img_user{
+    text-align: center;
+}
+.div_input {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+/* una excepcion */
+#div_input_emailTel {
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+input {
+    margin: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+    padding-left: 3px;
+    width: 200px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: #333;
+    color: white;
+    display: block;
+}
+
+#input_contacto {
+    margin-bottom: 0px;
+}
+
+#telefono{
+    margin-top: 30px;
+}
+
+.titulo_txtbox {
+    display: inline-block;
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 0px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+/* textarea del sobre ti (fotografo) */
+
+#descripcionF {
+    width: 350px;
+    height: 200px;
+    resize: none;
+    font-size: 18px;
+    padding: 2px;
+    border: 1px solid grey;
+    background-color: #333;
+    color: white;
+    margin-left: 60px;
+    margin-bottom: 0px;
+}
+
+#sobreTi {
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+/* imagen fotografo */
+
+#img_user {
+    height: 100px;
+    width: 100px;
+}
+
+#foto_perfil {
+    border: none;
+    background-color: rgb(67, 64, 64);
+    margin-left: 30px;
+}
+
+/* parte direccion */
+
+
+#tipo_calle {
+    margin: 0px;
+    margin-right: 10px;
+    padding: 0px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: #333;
+    display: inline; 
+    color: white;
+}
+
+#calle {
+    display: inline;
+}
+
+#label_calle {
+    display: block;
+    margin-left: 89px;
+    margin-bottom: 20px;
+    color: rgb(189, 185, 185);
+}
+
+/* boton submit */
+
+#div_btn_submit {
+    width: 100px;
+    /* margin-left: 750px; */
+    padding-bottom: 30px;
+}
+
+#btn_submit {
+    background-color: rgb(33, 122, 142);
+    color: white;
+    width: 100px;
+    margin-left: 500px;
+}
+
+#btn_submit:hover {
+    background-color: rgb(91, 161, 177);
+    color: white;
+}
+
+/* ------------------------------------------------ PEDIDOS ---------------------------------------------------- */
+
+#container3 {
+    width: 700px;
+    margin: 0px auto;
+}
+
+/* div general con filas para cada registro */
+#div_menu {
+    width: 700px;
+    margin: 30px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: grey;
+    text-align: center;
+    border: 1px solid white;
+}
+
+/* registros */
+.div_registro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.div_registro:hover {
+    background-color: lightyellow;
+    color: black;
+}
+
+/* Para quitar el estilo del enlace */
+.enlace_pedido {
+    text-decoration: none;
+    color: white;
+}
+
+/* ------------------------------------------- CAMBIAR CONTRASEÑA ---------------------------------------------- */
+
+#ficha_cambiarPass {
+    width: 300px;
+    margin: 0px auto;
+    margin-top: 30px;
+    background-color: rgb(67, 64, 64);
+    border-radius: 5px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#div_input_pass {
+    width: 205px;
+    margin: 0px auto;
+}
+
+.header_pass {
+    margin: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#div_btn_submitPass {
+    display: flex;
+    justify-content: center;
+}
+
+#btn_submitPass {
+    background-color: rgb(33, 122, 142);
+    color: white;
+    width: 100px;
+    margin-top: 30px;
+}
+
+#btn_submitPass:hover {
+    background-color: rgb(91, 161, 177);
+    color: white;
+}
+
+/* ------------------------------------- eliminar ------------------------------ */
+
+#ficha_eliminar {
+    width: 500px;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: rgb(67, 64, 64);
+    text-align: center;
+    border-radius: 5px;
+}
+
+#titulo_eliminar {
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.btn_ficha_eliminar {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#btnEliminar {
+    background-color: rgb(220, 53, 69);
+    color: whitesmoke;
+}
+
+#btnEliminar:hover {
+    background-color: whitesmoke;
+    color: rgb(220, 53, 69);
+}
+
+#btnVolver {
+    background-color: rgb(108, 117, 125);
+    color: whitesmoke;
+}
+
+#btnVolver:hover {
+    background-color: whitesmoke;
+    color: rgb(108, 117, 125);
+}

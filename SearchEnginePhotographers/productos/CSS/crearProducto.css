@@ -1,0 +1,121 @@
+/* estructura general */
+
+#container {
+    width: 900px;
+    margin: 0px auto;
+    background-color: rgb(72, 66, 66);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#contenido_container {
+    width: 700px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 2fr 1fr 1fr;
+
+}
+
+.div_contenido {
+    margin-bottom: 20px;
+}
+
+#titulo_crear {
+    text-align: center;
+}
+
+/* contenido imagenes + mensajes de error */
+
+.errorMsg {
+    display: none;
+    color: red;
+}
+
+/* categoria y duracion */
+
+#contenido_categoria_duracion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* div fotos */
+
+.labels {
+    display: block;
+    width: 180px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+#nombre_fotos {
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: none;
+}
+
+#div_input_img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.input_img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* precios */
+
+#div_precio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.titulo_iva {
+    margin: 0px;
+    margin-bottom: 12px;
+}
+
+.num_iva {
+    margin: 0px;
+}
+
+#div_fotografos {
+    margin-top: 20px;
+}
+
+/* nombre y descripcion */
+
+#nombre_p {
+    border-radius: 3px;
+    border: none;
+}
+
+#descripcion {
+    width: 700px;
+    height: 200px;
+    resize: none;
+    border-radius: 3px;
+    border: none;
+}
+
+/* boton submit */
+
+#div_contenido_submit {
+    text-align: right;
+}
+
+#btn_submit {
+    width: 120px;
+    background-color: rgb(65, 112, 153);
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#btn_submit:hover {
+    background-color: rgb(198, 213, 224);
+    color: rgb(95, 127, 154);
+}

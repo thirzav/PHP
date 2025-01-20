@@ -1,0 +1,172 @@
+
+#container2 {
+    width: 700px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    display: grid;
+    grid-template-rows: 1fr 3fr 2fr 2fr 3fr 1fr;
+    background-color: rgb(67, 64, 64);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.div_input {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+#titulo_registrar{
+    border-bottom: 1px solid white;
+    display: inline;
+}
+
+.errorMsg {
+    display: none;
+    color: red;
+}
+
+/* ----------------------------------- parte del medio ----------------------------------------- */
+
+#div_medio1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
+}
+
+#div_medio2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#div_medio4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#div_medio_img_user{
+    text-align: center;
+}
+.div_input {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+/* una excepcion */
+#div_input_emailTel {
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+input {
+    margin: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+    padding-left: 3px;
+    width: 200px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: #333;
+    color: white;
+    display: block;
+}
+
+#input_contacto {
+    margin-bottom: 0px;
+}
+
+#telefono{
+    margin-top: 30px;
+}
+
+.titulo_txtbox {
+    display: inline-block;
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 0px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+/* textarea del sobre ti (fotografo) */
+
+#descripcionF {
+    width: 350px;
+    height: 200px;
+    resize: none;
+    font-size: 18px;
+    padding: 2px;
+    border: 1px solid grey;
+    background-color: #333;
+    color: white;
+    margin-left: 60px;
+    margin-bottom: 0px;
+}
+
+#sobreTi {
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+/* imagen fotografo */
+
+#img_user {
+    height: 100px;
+    width: 100px;
+}
+
+#foto_perfil {
+    border: none;
+    background-color: rgb(67, 64, 64);
+    margin-left: 30px;
+}
+
+/* parte direccion */
+
+
+#tipo_calle {
+    margin: 0px;
+    margin-right: 10px;
+    padding: 0px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: #333;
+    display: inline; 
+    color: white;
+}
+
+#calle {
+    display: inline;
+}
+
+#label_calle {
+    display: block;
+    margin-left: 89px;
+    margin-bottom: 20px;
+    color: rgb(189, 185, 185);
+}
+
+/* boton submit */
+
+#div_btn_submit {
+    width: 100px;
+    /* margin-left: 750px; */
+    padding-bottom: 30px;
+}
+
+#btn_submit {
+    background-color: rgb(33, 122, 142);
+    color: white;
+    width: 100px;
+    margin-left: 500px;
+}
+
+#btn_submit:hover {
+    background-color: rgb(91, 161, 177);
+    color: white;
+}

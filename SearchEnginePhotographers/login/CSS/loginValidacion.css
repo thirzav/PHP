@@ -1,0 +1,18 @@
+#container {
+    width: 900px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#enlace_volver{
+    padding: 10px 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: rgb(96, 153, 96);
+}
+
+#enlace_volver:hover {
+    background-color: rgb(44, 107, 44);
+}

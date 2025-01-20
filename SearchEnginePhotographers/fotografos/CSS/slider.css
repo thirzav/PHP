@@ -1,0 +1,67 @@
+#container {
+    width: 900px;
+    margin: 0px auto;
+}
+
+#nombre_empresa {
+    text-align: center;
+}
+
+.container_slider {
+    overflow: hidden;
+    width: 750px;
+    margin: 0px auto;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 750px;
+    margin: 0px auto;
+    height: 500px;
+    transition: all 0.3s ease-in;
+}
+
+.slider_img {
+    width: 100%;
+    object-fit: cover;
+    margin: 0px auto;
+}
+
+/* navbar slider */
+
+.nav_galeria {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -270px;
+    opacity: 50%;
+}
+
+.btn_nav_anterior {
+    background-color: white;
+    border: none;
+}
+
+.btn_nav_anterior:hover {
+    background-color: rgb(222, 224, 228);
+    border: none;
+    border: 1px solid white;
+}
+
+.btn_nav_siguiente {
+    background-color: white;
+    border: none;
+}
+
+.btn_nav_siguiente:hover {
+    background-color: rgb(222, 224, 228);
+    border: none;
+    border: 1px solid white;
+}
+
+.btn_img {
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,242 @@
+/* body {
+    background-color: rgb(34, 33, 33);
+    color: white;
+} */
+
+#container {
+    width: 1000px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-areas:
+    "filtro contenido contenido contenido"
+    "filtro contenido contenido contenido"
+    "filtro contenido contenido contenido";
+    grid-gap: 20px;
+}
+
+/* -------------- CSS de la barra de búsqueda -------------------- */
+
+/* #div_barra {
+    width: 800px;   
+    margin: 0px auto; 
+    display: grid;
+    grid-area: barra;
+    grid-template-columns: 7fr 1fr;
+}
+
+#div_barra_busqueda {
+    width: 700px;
+    margin: 0px auto;
+}
+
+#busqueda {
+    width: 690px;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+#lupa {
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+} */
+
+/* ----------------------- CSS navegación de filtros ------------------------ */
+
+#div_filtro {
+    width: 300px;
+    margin-top: 30px;
+    display: grid;
+    grid-area: filtro;
+
+}
+
+#form_filtro {
+    grid-template-rows: 2fr 1fr 2fr 1fr;
+    border: 2px solid rgb(205, 203, 126);
+    border-radius: 5px;
+}
+
+.filtro_nombre {
+    text-align: center;
+}
+
+/* categorias y ciudad */
+
+#filtro_categorias, #filtro_ciudad {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+.filtro_opciones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.filtro_opciones_div{
+    align-self: center;
+    /* text-align: center; */
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.label_opciones {
+    display: inline;
+}
+
+/* precio */
+
+#filtro_rango_precio {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+#input_precio {
+    width: 130px;
+    margin: 0px auto;
+}
+
+/* botón submit */
+
+#div_btn_submit{
+    width: 75px;
+    margin: 0px auto;
+}
+
+#btn_submit {
+    width: 75px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+/* ---------------------------- contenido ----------------------------- */
+
+#div_contenido {
+    display: grid;
+    grid-area: contenido;
+    margin-top: 30px;
+}
+
+.div_ficha {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 2px solid rgb(205, 203, 126);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 210px;
+}
+
+.div_ficha:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+.div_ficha_info {
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr 1fr 2fr;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.titleh3{
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px;
+    color: rgb(231, 200, 154);
+}
+
+.p_ficha_info {
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.div_btn_ver {
+    text-align: right;
+    text-decoration: none;
+}
+
+.btn_ver_fotografo {
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid white;
+    color: grey;
+    background-color: rgb(243, 241, 171);
+    border-radius: 5px;
+}
+
+.btn_ver_fotografo:hover {
+    background-color: rgb(231, 200, 154);
+    color: white;
+}
+
+/* #div_descripcion {
+    height: 20px;
+}
+
+#p_descripcion {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+/* parte slider js */
+
+/* navbar slider */
+
+.container_slider {
+    overflow: hidden;
+    width: 315px;
+    margin: 0px auto;
+}
+.slider {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 315px;
+    height: 210px;
+    transition: all 0.3s ease-in;
+}
+
+.slider_img {
+    width: 100%;
+    object-fit: cover;
+    margin: 0px auto;
+}
+
+.nav_galeria {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -100px;
+    opacity: 50%;
+}
+
+.btn_nav {
+    background-color: white;
+    border: none;
+}
+
+.btn_nav:hover {
+    background-color: rgb(222, 224, 228);
+    border: none;
+    border: 1px solid white;
+}
+
+
+.btn_nav2 {
+    background-color: white;
+    border: none;
+}
+
+.btn_nav2:hover {
+    background-color: rgb(222, 224, 228);
+    border: none;
+    border: 1px solid white;
+}
+
+.btn_img {
+    width: 15px;
+    height: 15px;
+}

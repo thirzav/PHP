@@ -1,0 +1,73 @@
+#container {
+    width: 900px;
+    margin: 0px auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-areas: 
+    "cliente empresa"
+    "pedido pedido"
+    "total total";
+}
+
+#div_datos_cliente {
+    display: grid;
+    grid-area: cliente;
+}
+
+#div_datos_empresa {
+    display: grid;
+    grid-area: empresa;
+    text-align: right;
+}
+
+#div_datos_pedido {
+    display: grid;
+    grid-area: pedido;
+}
+
+.p_datos {
+    margin: 0px;
+}
+
+#header_pedidos{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+
+.nombre_registros{
+    font-size: 18px;
+    background-color: rgb(67, 65, 65);
+    padding: 10px;
+    border-right: 5px solid rgb(33, 33, 33);
+    text-align: center;
+}
+
+#div_registros {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+
+.registro_producto {
+    border-bottom: 1px solid white;
+    margin: 0px;
+    padding: 10px;
+}
+
+.derecha {
+    text-align: right;
+}
+
+#div_total {
+    display: grid;
+    grid-area: total;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+
+.div_precios {
+    text-align: right;
+}
+.precio_total {
+    border-top: 1px solid white;
+    padding-top: 20px;
+    margin-bottom: 100px;
+}

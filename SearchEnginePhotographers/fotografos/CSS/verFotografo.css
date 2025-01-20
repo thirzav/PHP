@@ -1,0 +1,47 @@
+#container {
+    width: 900px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-rows: 1fr 3fr 3fr;
+    background-color: rgb(67, 64, 64);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#div_arriba_titulo {
+    text-align: center;
+}
+
+#div_medio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#div_medio_img {
+    text-align: center;
+}
+
+#div_medio_datosEmpresa {
+    border-left: 1px solid white;
+    padding-left: 10px;
+}
+
+#div_abajo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#div_abajo_izquierda{
+    padding-left: 100px;
+}
+
+#div_abajo_derecha {
+    padding-left: 11px;
+}
+
+#img_perfil {
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* para que quede bien dimensionado */
+    border-radius: 50%;
+}

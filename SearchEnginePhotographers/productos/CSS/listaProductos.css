@@ -1,0 +1,74 @@
+/* estructura general de la página */
+
+#div_crear {
+    width: 900px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#container {
+    width: 900px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.div_ficha_producto {
+        width: 280px;
+        border: 2px solid  rgb(205, 203, 126);
+        border-radius: 5px;
+}
+
+/* carousel de feComponentTransfer */
+
+.img_div_ficha {
+    width: 100%;
+    object-fit: cover; /* para que quede bien dimensionado */
+    border-bottom: 2px solid  rgb(205, 203, 126);
+}
+
+/* parte de la información del producto */
+
+.ficha_producto_info {
+    padding: 10px;
+}
+
+.producto_descripcion {
+    white-space: pre-line;
+    text-align: justify;
+}
+
+/* botón que redirige a la página con toda la info del producto */
+
+.div_btn_redirigir{
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+.btn_ver_fotografo {
+    display: inline;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: -20px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid white;
+    color: grey;
+    background-color: rgb(243, 241, 171);
+    border-radius: 5px;
+}
+
+.btn_ver_fotografo:hover {
+    background-color: rgb(231, 200, 154);
+    color: white;
+}
+
+.enlace_edit_icon {
+    text-decoration: none;
+}
+
+.edit_icon {
+    width: 30px;
+    height: 30px;
+}

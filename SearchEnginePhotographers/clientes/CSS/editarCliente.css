@@ -1,0 +1,118 @@
+
+/* datos del perfil */
+
+#contenido_perfil, #contenido_editar {
+    width: 500px;
+    margin: 0px auto;
+    background-color: rgb(67, 64, 64);
+    border-radius: 5px;
+}
+
+/* div de arriba */
+
+#div_arriba_titulo {
+    text-align: center;
+}
+
+#titulo_registrar{
+    padding-top: 20px;
+}
+
+/* div del medio */
+
+#div_txtbox_nombre {
+    display: flex;
+    justify-content: left;
+}
+
+.div_input {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 0px;
+    margin-right: 10px;
+    padding: 0px;
+    padding-left: 3px;
+    width: 200px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: #333;
+    color: white;
+    display: block;
+}
+
+.titulo_txtbox {
+    display: inline-block;
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 0px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+/* div de abajo */
+
+#tipo_calle {
+    margin: 0px;
+    margin-right: 10px;
+    padding: 0px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: #333;
+    display: inline; 
+    color: white;
+}
+
+#calle {
+    display: inline;
+}
+
+#label_calle {
+    display: block;
+    margin-bottom: 20px;
+    color: rgb(189, 185, 185);
+}
+
+/* boton recordar */
+
+#recordar {
+    width: 15px;
+    height: 15px;
+    display: inline;
+}
+
+#label_recordar {
+    display: inline;
+}
+
+#label_rol {
+    margin-left: 30px;
+}
+
+#div_titulo_cuenta{
+    display: block;
+}
+
+/* boton submit */
+
+#div_btn_submit, #div_btn_submitPass {
+    width: 100px;
+    margin: 20px 75% 0%;
+    padding-bottom: 30px;
+}
+
+#btn_submit, #btn_submitPass {
+    background-color: rgb(33, 122, 142);
+    color: white;
+    width: 100px;
+}
+
+#btn_submit:hover, #btn_submitPass:hover {
+    background-color: rgb(91, 161, 177);
+    color: white;
+}

@@ -1,0 +1,119 @@
+#ficha_login {
+    width: 700px;
+    margin: 0px auto;
+    margin-top: 100px;
+    background-color: rgb(243, 241, 171);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: black;
+}
+
+/* parte izquierda */
+
+#login {
+    width: 300px;
+    background-color: rgb(231, 200, 154);
+    padding: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.header_login {
+    margin: 0px;
+    text-align: center;
+}
+
+.title_login {
+    font-size: 20px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.input_login {
+    width: 300px;
+    padding: 8px;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#div_btn_login {
+    width: 70px;
+    margin: 30px auto;
+}
+
+#btn_login {
+    text-decoration: none;
+    background-color: rgb(243, 241, 171);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#btn_login:hover {
+    background-color: rgb(205, 203, 126);
+    color: rgb(255, 255, 255);
+}
+
+/* parte derecha */
+
+#header_bienvenida {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+#div_enlace_registrar {
+    width: 165px;
+    margin: 20px auto;
+}
+
+.enlace {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.enlace:hover {
+    color: rgb(231, 200, 154);
+}
+
+#text_cuenta {
+    /* color: white; */
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+#div_enlace_volver {
+    width: 50px;
+    margin: 0px auto;
+}
+
+
+/* botones redirigir */
+
+#div_btn_redirigir{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn_redirigir {
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background-color:  rgb(243, 241, 171);
+}
+
+.btn_redirigir:hover {
+    background-color: rgb(205, 203, 126);
+    color: rgb(33, 33, 33);
+}
+
