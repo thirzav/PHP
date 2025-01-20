@@ -1,0 +1,41 @@
+main {
+    width: 950px;
+}
+
+#containerFichas {
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+/* fichas personaje */
+
+.fichaPersonaje {
+    width: 303px;
+    background-color: rgb(151, 151, 151);
+    border-radius: 5px;
+}
+
+h4 {
+    margin: 0px;
+    display: inline;
+}
+
+h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p {
+    display: inline;
+}
+
+.fichaDetalles {
+    margin: 20px;
+}
+
+#fichaAtributos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

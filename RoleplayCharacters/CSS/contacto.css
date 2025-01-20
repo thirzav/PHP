@@ -1,0 +1,93 @@
+/* estilo parte main */
+
+#contacto {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* --------------------------------------- parte arriba ------------------------------------------- */
+
+#div_form_header {
+    width: 450px;
+    margin:0px auto;
+    padding-top: 30px;
+}
+
+#titulo_contacto {
+    color: #b30000;
+    margin: 0px auto;
+    margin-bottom: 15px;
+}
+
+#titulo_explicacion {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+/* ------------------------------------ parte abajo ------------------------------------------- */
+
+#div_form_contenido {
+    width: 450px;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+
+#div_txtbox_nombre {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    margin: 0px;
+    padding: 0px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: #333;
+}
+
+/* juego margin, no hace falta */
+/* p {
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+} */
+
+.titulo_txtbox {
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+#email {
+    width: 450px;
+}
+
+#mensaje {
+    width: 450px;
+    height: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    resize: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    background-color: #333;
+}
+
+/* parte boton submit */
+
+#div_submit {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#btn_submit {
+    width: 120px;
+    height: 35px;
+    font-size: 18px;
+    background-color: #b30000;
+    color: white;
+}

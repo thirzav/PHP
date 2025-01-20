@@ -1,0 +1,107 @@
+/* para darle un estilo fuente a todo el texto de toda la página */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1b1b1b; /* Negro oscuro para el fondo general */
+    color: #f4f4f4; /* Texto blanco */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+}
+
+main {
+    background-color: #262626; /* Negro intermedio para el fondo de la historia */
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* -------------------------------------- encabezado ------------------------------------------ */
+
+
+/* Estilos del encabezado */
+
+header {
+    background-color: gray; /* Rojo oscuro */
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h1#titulo {
+    color: white;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    margin-top: 15px;
+}
+
+ul#listaNavbar {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra los enlaces */
+    gap: 20px;
+}
+
+li.cajaEnlace {
+    background-color: #333333;
+    padding: 10px 20px;
+    border-radius: 5px; /* Para darle un toque más cuadrado */
+}
+
+.cajaEnlace:hover {
+    background-color: #b30000; /* Cambia a rojo oscuro cuando se pasa el ratón */
+    color: white;
+}
+
+a.enlace {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* -------------------------------- navbar ------------------------------- */
+
+/* para hacer que se dividen con espacios en medio */
+
+#listaNavbar{
+    margin: 0px auto;
+    padding: 0px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cajaEnlace {
+    margin: 0px auto;
+    padding: 0px;
+    display: inline;
+    text-decoration: none;
+}
+
+.enlace {
+    margin: 0px auto;
+    text-decoration: none;
+    color: white;
+}
+
+/* parte main */
+
+h2 {
+    font-size: 2rem;
+    color: #b30000; /* Rojo brillante */
+    margin-bottom: 20px;
+}
