@@ -1,13 +1,19 @@
 These are some of the projects I did during the last course, which I finished in December.
 
-ROLEPLAY
-The first project is a website where you can create a roleplay character. You can add new characters, modify existing ones and delete them. I've worked in a team to build this website in 1 week.
+    1. Roleplay characters
 
-SEARCH ENGINE PHOTOGRAPHER
-The other project you can find here is the final project of the course. I build a search engine for clients who are looking 
-for a photographer. You can actually filter the photographer by the filters on the left side of the initial page. You can
-also create an account and buy a product of a photographer. The only thing which wasn't implemented is the payment service, 
-but once you click on "buy product" the products do appear in your profile. The photographer can also create a profile, in which 
-he/she can manage the products they have on the website. They can also get an overview of all the products they sold. Then, lastly, 
-there is a special page for the administrator. The admin has access to all parts of the website and has the possibilty to create and
-delete accounts/products etc.
+For this project, I worked in a team to build a website where users can create, modify, and delete roleplay characters. 
+It allows users to add new characters with details like name, description, and traits, or update existing ones. We 
+worked together to get the site ready in just one week, focusing on making it user-friendly and functional. It was a fun, 
+fast-paced project that helped me improve my teamwork and coding skills while creating a space for users to manage their 
+roleplay characters.
+
+    2. Search engine for photographers
+
+For this project, I built a search engine for photographers using PHP. On the homepage, there's a list of photographers 
+that users can filter based on different criteria, making it easier to find the perfect match. There's a client area where 
+users can log in to buy products from photographers. After making a purchase, they can view their bought items in their 
+profile. Photographers also have their own area where they can track products they've sold and manage their listings, like 
+adding images. Additionally, there's an admin login that gives access to manage clients, products, and photographers. It 
+was a great project to work on, combining PHP for backend functionality with features that help both clients and 
+photographers manage their profiles and transactions.
